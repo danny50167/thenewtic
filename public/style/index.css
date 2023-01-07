@@ -1,0 +1,25 @@
+#title {
+  font-size: 10em;
+  transition-duration: 500ms;
+  display: inline-flex;
+  padding: 0.05em;
+  user-select: none;
+  margin-bottom: 0.3em;
+}
+
+#title:hover {
+  transform: translateY(-0.2em);
+  transform: rotate(8deg);
+}
+
+.btn {
+  padding: 1em;
+  border-radius: 0.8em;
+  border: none;
+  margin: 1em;
+  font-size: 1.03em;
+  background-color: #efefef;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 3em;
+}

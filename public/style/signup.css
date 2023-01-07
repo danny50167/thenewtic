@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  user-select: none;
+}
+
+td {
+  border: 2px black solid;
+  height: 4.1em;
+  width: 4.1em;
+  margin: 0;
+  border-radius: 0.4em;
+  font-weight: 500;
+  transition-duration: 500ms;
+}
+td:hover {
+  font-weight: 800;
+}
+
+
+.input {
+  width: 14em;
+  height: 1.5em;
+  padding: 1em;
+  border-radius: 0.8em;
+  border: 0;
+  background-color: #efefef;
+  margin: 2em;
+}
+#input_ID {
+  margin-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 2px #bdbdbd solid;
+}
+
+#btn_checkID {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#input_PW {
+  margin-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 2px #bdbdbd solid;
+}
+#input_PWCheck {
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn {
+  width: 16em;
+  height: 3.4em;
+  padding: 1em;
+  border-radius: 0.8em;
+  border: 0;
+  background-color: #efefef;
+  margin: 0em;
+}
